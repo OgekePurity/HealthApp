@@ -9,6 +9,12 @@ const categoryRoute = require("./routes/categories")
 const multer = require("multer")
 const cors = require("cors")
 const bodyParser = require("body-parser")
+const path = require('path');
+const cookieParser = require('cookie-parser');
+const notFoundMiddleware = require('./middleware/errorHandler');
+const errorHandlerMiddleware = require('./middleware/notFound');
+const verifyJWT = require("./middleware/verifyJWT")
+const PORT = process.env.PORT || 4000;
 
 dotenv.config()
 app.use(express.json())
@@ -18,6 +24,13 @@ app.use(cors());
 
 // Middleware
 app.use(bodyParser.json());
+
+// built-in middleware to handle urlencoded form data
+app.use(express.urlencoded({ extended: false }));
+
+//middleware for cookies
+app.use(cookieParser());
+
 
 mongoose.connect(process.env.MONGO_URI)
   .then(() => console.log("Connected to MongoDB"))
@@ -41,8 +54,19 @@ mongoose.connect(process.env.MONGO_URI)
   app.use("/api/posts", postRoute)
   app.use("/api/categories", categoryRoute)
 
+app.use('/register', require('./routes/register'));
+app.use('/auth', require('./routes/auth'));
+app.use('/refresh', require('./routes/refresh'));
+app.use('/logout', require('./routes/logout'));
 
 
-app.listen(process.env.PORT, () => {
-  console.log(`Backend is running on http://localhost:${process.env.PORT}`)
-})
+app.use(verifyJWT);
+app.use(notFoundMiddleware);
+app.use(errorHandlerMiddleware);
+
+
+app.listen(PORT, () =>
+    console.log(`Server is listening on port ${PORT}...`)
+    );
+ 
+

@@ -1,6 +1,10 @@
+
 const router = require("express").Router();
 const User = require("../models/User");
 const bcrypt = require("bcrypt");
+const authController = require('../controllers/authController');
+
+//const router = express.Router();
 
 // REGISTER
 router.post("/register", async (req, res) => {
@@ -39,5 +43,15 @@ router.post("/login", async (req, res) => {
     return res.status(500).json(err);
   }
 });
+router.post('/', authController.handleLogin);
 
 module.exports = router;
+
+
+
+
+
+
+
+
+
