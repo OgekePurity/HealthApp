@@ -1,4 +1,4 @@
-const User = require('../model/User');
+const User = require('../models/User');
 const jwt = require('jsonwebtoken');
 const crypto = require('crypto');
 const accessTokenSecret = crypto.randomBytes(40).toString('hex');

@@ -16,6 +16,7 @@ const errorHandlerMiddleware = require('./middleware/notFound');
 const verifyJWT = require("./middleware/verifyJWT")
 const PORT = process.env.PORT || 4000;
 
+
 dotenv.config()
 app.use(express.json())
 
@@ -55,7 +56,7 @@ mongoose.connect(process.env.MONGO_URI)
   app.use("/api/categories", categoryRoute)
 
 app.use('/register', require('./routes/register'));
-app.use('/auth', require('./routes/auth'));
+app.use('/login', require('./routes/login'));
 app.use('/refresh', require('./routes/refresh'));
 app.use('/logout', require('./routes/logout'));
 
