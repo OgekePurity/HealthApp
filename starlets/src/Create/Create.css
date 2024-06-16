@@ -1,0 +1,175 @@
+/* .create {
+    padding-top: 50px;
+    background: linear-gradient(to bottom, #D8BFD8, #E6E6FA);
+    background-blend-mode: screen;
+    min-height: 100vh;
+}
+
+.createForm {
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+/* .sticky {
+    position: sticky;
+    background-color: gray;
+} */
+/* .writeText {
+    width: 90%;
+    min-height: 60vh;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    margin: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.sticky {
+    position: sticky;
+    background-color: white;
+    top: 0;
+    z-index: 1;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+.chooseFile {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+    max-width: 90%;
+
+}
+.writeInput {
+    font-size: 30px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 90%;
+    margin: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #f2f2f2;
+  }
+  
+
+.category {
+    width: 80vw;
+    margin: 10px 10%;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.submitButton {
+    position: fixed;
+    bottom: 0;
+    margin-left: 10%;
+    color: white;
+    background-color: #8b9467;;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.createImg {
+    margin: auto;
+    width: 70vw;
+    height: 350px;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }  */
+
+
+ /* TRIAL CSS CHANGES */
+ .create {
+    padding-top: 50px;
+    background: linear-gradient(to bottom, #D8BFD8, #E6E6FA);
+    background-blend-mode: screen;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .createForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+  }
+  
+  .writeText {
+    width: 100%;
+    min-height: 60vh;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    margin: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .chooseFile {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+    max-width: 100%;
+  }
+  
+  .writeInput {
+    font-size: 30px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    margin: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #f2f2f2;
+  }
+  
+  .category {
+    width: 80%;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .submitButton {
+    margin-top: 20px;
+    color: white;
+    background-color: #8b9467;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .writeImg {
+    margin: auto;
+    width: 70vw;
+    height: 350px;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }

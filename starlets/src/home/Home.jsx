@@ -79,7 +79,7 @@ export default function Home() {
         <Link to="/articles" className="link-item">
           My Articles
         </Link>
-        <Link to="#" className="link-item">
+        <Link to="/create" className="link-item">
           Create Post
         </Link>
         <Link to="#" className="link-item">

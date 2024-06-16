@@ -1,0 +1,52 @@
+.postImage {
+    width: 600px; /* Set the desired width */
+    height: 400px; /* Set the desired height */
+    object-fit: cover; /* Maintain aspect ratio, fill the container */
+    border-radius: 8px; /* Optional: Add border radius for rounded corners */
+    margin: 20px 0; /* Optional: Add some margin for spacing */
+  }
+/* Center the content using flexbox */
+.postDetailContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .postTitle {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .postDescription {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #666;
+    text-align: center;
+    line-height: 1.6;
+  }
+  
+  .postImage {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 20px 0;
+  }
+  
+  /* Optional: Add some global styles for better visuals */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #e9ecef;
+    margin: 0;
+    padding: 0;
+  }
+    
