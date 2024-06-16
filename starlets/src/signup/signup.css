@@ -1,0 +1,120 @@
+html, /* background color for the whole image */
+.bodyy {
+  background-color: #f1e4e1;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Inknut Antiqua", serif;
+}
+
+.sign-container {
+  width: 100%;
+  height: 100%;
+  max-width: 400px;
+  margin: auto;
+  font-family: "Inknut Antiqua", serif;
+  background-color: #f1e4e1;
+}
+
+.headerrr {
+  text-align: center;
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 10px;
+  font-weight: 400px;
+  font-family: "Inknut Antiqua", serif;
+  font-weight: bold;
+}
+
+.signForm h2 {
+  font-size: 36px;
+  text-align: center;
+  margin-top: 44px;
+  font-weight: bold;
+}
+
+.input-grp {
+  margin-bottom: 20px;
+  margin-left: 300px;
+  /* display: flex; */
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  width: 230px;
+  height: 58px;
+  left: 188px;
+  padding: 13.47px, 17.96px, 13.47px, 17.96px;
+  border: 1px solid #ccc;
+  border-radius: 8.9px;
+  margin-top: -120px;
+}
+
+.btn {
+  display: block;
+  width: 288px;
+  height: 79px;
+  padding: 14px, 24px, 14px, 24px;
+  top: 435px;
+  left: 92px;
+  gap: 8px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #ffc3d6;
+  color: #0000ff;
+  font-family: "Inknut Antiqua", serif;
+  margin-left: 90px;
+}
+
+.passlabel,
+.confirmlabel,
+.emaillabel,
+.fullnamelabel {
+  margin-left: -250px;
+  font-size: 17px;
+  font-family: "Inknut Antiqua", serif;
+}
+
+.check {
+  display: flex;
+  align-items: center;
+}
+
+/* .check.checkbox {
+  margin-right: 190px;
+  padding-left: 20px;
+}  */
+
+.checkbox {
+  margin-left: 70px;
+  height: 25px;
+  width: 40px; /* Increased width */
+}
+
+.check {
+  margin-left: 25px;
+  margin-bottom: 10px;
+  top: 54px;
+  font-size: 19px;
+}
+
+.checkbox-grp {
+  display: flex;
+  margin-left: 47px;
+  margin-bottom: 5px;
+}
+
+input[type="text"]::placeholder,
+input[type="password"]::placeholder,
+input[type="email"]::placeholder {
+  top: 253px;
+  left: 152px;
+  padding: 13.47px, 17.96px, 13.47px, 17.96px;
+}

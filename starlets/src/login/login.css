@@ -1,0 +1,113 @@
+html, /* background color for the whole image */
+bodyy {
+  background-color: #f1e4e1;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.login-container {
+  width: 100%;
+  height: 100%;
+  max-width: 400px;
+  margin: auto;
+  font-family: "Inknut Antiqua", serif;
+  background-color: #f1e4e1;
+}
+
+.headerr {
+  text-align: center;
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: 400px;
+  font-family: "Inknut Antiqua", serif;
+}
+
+.login-form h2 {
+  font-size: 36px;
+  text-align: center;
+  margin-top: 90px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+  margin-left: 300px;
+  /* display: flex; */
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 230px;
+  height: 58px;
+  left: 188px;
+  padding: 13.47px, 17.96px, 13.47px, 17.96px;
+  border: 1px solid #ccc;
+  border-radius: 8.9px;
+  margin-top: -120px;
+}
+
+.btn {
+  display: block;
+  width: 288px;
+  height: 79px;
+  padding: 14px, 24px, 14px, 24px;
+  top: 435px;
+  left: 92px;
+  gap: 8px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-btn {
+  background-color: #ffc3d6;
+  color: #0000ff;
+  margin-bottom: 24px;
+  font-family: "Inknut Antiqua", serif;
+  margin-left: 90px;
+}
+
+.create-account-btn {
+  background-color: #ffc3d6;
+  color: #0000ff;
+  font-family: "Inknut Antiqua", serif;
+  margin-left: 90px;
+}
+
+.cancel-btn {
+  position: absolute;
+  top: 23px;
+  right: 200;
+  left: 870px;
+  width: 39px;
+  height: 23px;
+  margin-right: 150px; /* Adjust margin as needed */
+  font-size: 24px;
+  cursor: pointer;
+  color: #333; /* Example: change color as needed */
+}
+
+.notepad {
+  position: absolute;
+  right: 870px;
+}
+
+.userlabel {
+  margin-left: -250px;
+}
+
+.passlabel {
+  margin-left: -250px;
+}
+
+.hr {
+  width: 100%;
+  border: 1px solid #333;
+  margin: 20px 0;
+}
