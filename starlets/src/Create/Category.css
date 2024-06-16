@@ -1,0 +1,82 @@
+/* .category label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .category {
+    width: 80vw;
+    margin: 10px 10%;
+    padding: 10px;
+    background-color: #fff; 
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .category input[type="radio"] {
+    appearance: none;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    outline: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .category input[type="radio"]:checked {
+    background-color: #7a6f9e; 
+  }
+  
+ 
+  .category label:hover {
+    color: #7a6f9e; 
+  }
+  
+  .category input[type="radio"]:checked + label {
+    color: #7a6f9e; 
+  }
+ */
+  /* NEW STYLING */
+  .category label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .category {
+    width: 100%;
+    /* margin: 10px 10%; */
+    padding: 10px;
+    background-color: #fff; /* White background for the category section */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .category input[type="radio"] {
+    appearance: none;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    outline: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .category input[type="radio"]:checked {
+    background-color: #7a6f9e; /* Lavender color for the selected radio button */
+  }
+  
+ 
+  .category label:hover {
+    color: #7a6f9e; /* Lavender color for the label on hover */
+  }
+  
+  .category input[type="radio"]:checked + label {
+    color: #7a6f9e; /* Lavender color for the label when radio button is selected */
+  }
